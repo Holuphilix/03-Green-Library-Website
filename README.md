@@ -17,7 +17,7 @@ You will simulate the roles of two contributors: __"Morgan"__ and __"Jamie"__. M
   ### Setup
 1. Create a Respository on GitHub:
 
-  ![new and name Repos](./Img/create_new_repos.png)
+![new and name Repos](./Img/create_new_repos.png)
 
 - Name it __Greenwood-Library-Website__.
   
@@ -31,7 +31,7 @@ You will simulate the roles of two contributors: __"Morgan"__ and __"Jamie"__. M
 
 - Clone it your local machine.
   
-  ![local_clone](./Img/local_machine_clone.png)
+![local_clone](./Img/local_machine_clone.png)
 
 
 ### Tasks
@@ -52,19 +52,55 @@ You will simulate the roles of two contributors: __"Morgan"__ and __"Jamie"__. M
   
   - Random content into the file of home.html 
   
-  ![home.html](./Img/home_html.png)
+![home.html](./Img/home_html.png)
   
   - Random content into the file of about_us.html
   
-  ![about.html](./Img/about_html.png)
+![about.html](./Img/about_html.png)
   
   - Random content into the file of events.html
   
-  ![event.html](./Img/events_html.png)
+![event.html](./Img/events_html.png)
 
   - Random content into the file of contact_us.html 
   
-  ![contact.html](./Img/contact_html.png)
+![contact.html](./Img/contact_html.png)
 
 3. Stage, commit and push the changes directly to the __main__ branch. (This is a simulation of the team's existing code base for the website).
+  
+  - Stage changes
+  
+![stage_changes](./Img/git_stage.png)
+
+  - Commit and push the changes directly to the __main__
+
+![commit_push_changes](./Img/git_commit_push.png)
+
+
+### Morgan's Work: adding Book Reviews
+
+1. Create a Branch for Morgan:
+   
+![add-book-reviews_branch](./Img/new_branch_add_book_reviews.png)
+   
+2. Switch to a new branch named __add-book-reviews__
+   
+3. Add a new file __book_reviews.html__ to represent the Book Reviews Section:
+  
+![switch_add_book_reviews](./Img/switch_add_book_reviews.png)
+
+4. Add a random text content into the file.
+   
+![add_content_text](./Img/book_reviews_content.png)
+
+5. Stage, Commit, and Push Changes with a message like __"Add book reviews section."__
+
+6. Push the __add-book-reviews__ branch to GitHub.
+
+![stage_commit_push](./Img/stage_commit_push_add_book_reviews.png)
+
+7. Raise a PR for morgan's work.
+
+8. Merge Morgan's work to the __main__ branch
+   
 
