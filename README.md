@@ -95,7 +95,12 @@ You will simulate the roles of two contributors: __"Morgan"__ and __"Jamie"__. M
 
 5. Stage, Commit, and Push Changes with a message like __"Add book reviews section."__
 
-6. Push the __add-book-reviews__branch to GitHub.
+6. Push the __add-book-reviews__ branch to GitHub.
+
+![stage_commit_push](./Img/stage_commit_push_add_book_reviews.png)
 
 7. Raise a PR for morgan's work.
+
+8. Merge Morgan's work to the __main__ branch
+   
 
