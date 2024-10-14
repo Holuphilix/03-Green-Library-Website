@@ -125,6 +125,9 @@ You will simulate the roles of two contributors: __"Morgan"__ and __"Jamie"__. M
 
 6. Push the __Updating Event Page__ branch to GitHub.
 
+![Stage_commit_Push_update_events](./Img/stage_commit_push_update_events.png)
+
+
 
 
 
