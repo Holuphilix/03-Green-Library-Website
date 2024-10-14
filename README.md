@@ -2,7 +2,7 @@
 
 ### Background Scenairo
 
-You're part of a development team tasked with enchancing the website for the __Greenwood Community Library__. The website aims to be more engaging and informative for its visitors. It currently includes basic sections:__Home, About Us, Events, and Contact Us__. Your team decides to add a __"Book Reviews"__ section and update the __"Events"__ page to feature upcoming community events.  
+You're part of a development team tasked with enchancing the website for the __Greenwood Community Library__. The website aims to be more engaging and informative for its visitors. It currently includes basic sections: __Home, About Us, Events, and Contact Us__. Your team decides to add a __"Book Reviews"__ section and update the __"Events"__ page to feature upcoming community events.  
 
 You will simulate the roles of two contributors: __"Morgan"__ and __"Jamie"__. Morgan will focus on adding the __"Book Reviews"__ section, while jamie will update the __"Events"__ page with new community events.
 
@@ -99,8 +99,37 @@ You will simulate the roles of two contributors: __"Morgan"__ and __"Jamie"__. M
 
 ![stage_commit_push](./Img/stage_commit_push_add_book_reviews.png)
 
-7. Raise a PR for morgan's work.
+7. Raise a PR for morgan's work. 
+
+![Raise_PR](./Img/create_PR.png)
 
 8. Merge Morgan's work to the __main__ branch
+
+![Merge_Morgan's_work](./Img/merge%20PR.png)
    
+
+### Jamie's Work: Updating Events Page
+
+1. Create a Branch for Jamie:
+
+2. Switch to a new branch named __update-events__
+   
+3. Add a new file __update_events.html__ to update the Events Page Section:
+   
+![New_branch_file_](./Img/new_branch_update_events.png)
+
+4. Add a random text content into the file.
+![Add_text_content](./Img/add_content_update_review.png)
+
+5. Stage, Commit, and Push Changes with a message like __"Updating Event Page."__
+
+6. Push the __Updating Event Page__ branch to GitHub.
+
+
+
+
+
+
+
+
 
