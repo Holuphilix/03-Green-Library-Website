@@ -1,138 +1,146 @@
-# Capstone Project: Enhancing a community Library Website
+# Capstone Project: Enhancing a Community Library Website
 
-### Background Scenairo
+### Background Scenario
 
-You're part of a development team tasked with enchancing the website for the __Greenwood Community Library__. The website aims to be more engaging and informative for its visitors. It currently includes basic sections: __Home, About Us, Events, and Contact Us__. Your team decides to add a __"Book Reviews"__ section and update the __"Events"__ page to feature upcoming community events.  
+You're part of a development team tasked with enhancing the website for the **Greenwood Community Library**. The website aims to be more engaging and informative for its visitors. It currently includes basic sections: **Home, About Us, Events, and Contact Us**. Your team decides to add a **"Book Reviews"** section and update the **"Events"** page to feature upcoming community events.
 
-You will simulate the roles of two contributors: __"Morgan"__ and __"Jamie"__. Morgan will focus on adding the __"Book Reviews"__ section, while jamie will update the __"Events"__ page with new community events.
+You will simulate the roles of two contributors: **"Morgan"** and **"Jamie"**. Morgan will focus on adding the **"Book Reviews"** section, while Jamie will update the **"Events"** page with new community events.
 
+### Objectives
 
-### Objectives 
-- Practice cloning a respository and working with branches in Git.
+- Practice cloning a repository and working with branches in Git.
+- Gain experience in staging, committing, and pushing changes from both developers.
+- Create pull requests and merge them after resolving any potential conflicts.
 
-- Gain experince in staging, committing, and Pushing changes from both developers.
-  
-- Create pull request and merge them after resolving any potential conflicts.
-  
-  ### Setup
-1. Create a Respository on GitHub:
+### Setup
 
-![new and name Repos](./Img/create_new_repos.png)
+1. **Create a Repository on GitHub:**
 
-- Name it __Greenwood-Library-Website__.
-  
-- Initiate it with a README.md file.
+   ![new and name Repos](./Img/create_new_repos.png)
 
-![name_repos](./Img/New_Readme_repos.png)
+   - Name it **Greenwood-Library-Website**.
+   - Initiate it with a README.md file.
 
-- Copy your Respository to your local machine.
+   ![name_repos](./Img/New_Readme_repos.png)
 
-![copy](./Img/clone_repos.png)
+2. **Copy the Repository to your local machine:**
 
-- Clone it your local machine.
-  
-![local_clone](./Img/local_machine_clone.png)
+   ![copy](./Img/clone_repos.png)
 
+   - Clone it to your local machine:
+
+     ```bash
+     git clone https://github.com/yourusername/Greenwood-Library-Website.git
+     ```
+
+   ![local_clone](./Img/local_machine_clone.png)
 
 ### Tasks
 
-1. In the main branch, using Visual Studio Code editor ensure there are files for each of the web pages.
+1. **In the `main` branch, using Visual Studio Code editor, ensure there are files for each of the web pages:**
 
-   - home.html
-  
-   - about_us.html
-  
-   - events.html
+   - `home.html`
+   - `about_us.html`
+   - `events.html`
+   - `contact_us.html`
 
-   - contact_us.html
+   ![web_pages](./Img/create_web_pages.png)
 
-![web_pages](./Img/create_web_pages.png)
-  
-2. Add any random content into each of the files.
-  
-  - Random content into the file of home.html 
-  
-![home.html](./Img/home_html.png)
-  
-  - Random content into the file of about_us.html
-  
-![about.html](./Img/about_html.png)
-  
-  - Random content into the file of events.html
-  
-![event.html](./Img/events_html.png)
+2. **Add any random content into each of the files:**
+   - Random content into `home.html`
 
-  - Random content into the file of contact_us.html 
-  
-![contact.html](./Img/contact_html.png)
+     ![home.html](./Img/home_html.png)
 
-3. Stage, commit and push the changes directly to the __main__ branch. (This is a simulation of the team's existing code base for the website).
-  
-  - Stage changes
-  
-![stage_changes](./Img/git_stage.png)
+   - Random content into `about_us.html`
 
-  - Commit and push the changes directly to the __main__
+     ![about.html](./Img/about_html.png)
 
-![commit_push_changes](./Img/git_commit_push.png)
+   - Random content into `events.html`
 
+     ![event.html](./Img/events_html.png)
 
-### Morgan's Work: adding Book Reviews
+   - Random content into `contact_us.html`
 
-1. Create a Branch for Morgan:
-   
-![add-book-reviews_branch](./Img/new_branch_add_book_reviews.png)
-   
-2. Switch to a new branch named __add-book-reviews__
-   
-3. Add a new file __book_reviews.html__ to represent the Book Reviews Section:
-  
-![switch_add_book_reviews](./Img/switch_add_book_reviews.png)
+     ![contact.html](./Img/contact_html.png)
 
-4. Add a random text content into the file.
-   
-![add_content_text](./Img/book_reviews_content.png)
+3. **Stage, commit, and push the changes directly to the `main` branch** (This simulates the team's existing codebase for the website):
 
-5. Stage, Commit, and Push Changes with a message like __"Add book reviews section."__
+   ```bash
+   git add .
+   git commit -m "Initial commit: Add basic web pages"
+   git push origin main
+   ```
 
-6. Push the __add-book-reviews__ branch to GitHub.
+   ![commit_push_changes](./Img/git_commit_push.png)
 
-![stage_commit_push](./Img/stage_commit_push_add_book_reviews.png)
+### Morgan's Work: Adding Book Reviews
 
-7. Raise a PR for morgan's work. 
+1. **Create a branch for Morgan:**
 
-![Raise_PR](./Img/create_PR.png)
+   ![add-book-reviews_branch](./Img/new_branch_add_book_reviews.png)
 
-8. Merge Morgan's work to the __main__ branch
+   ```bash
+   git checkout -b add-book-reviews
+   ```
 
-![Merge_Morgan's_work](./Img/merge%20PR.png)
-   
+2. **Add a new file `book_reviews.html` to represent the Book Reviews section:**
 
-### Jamie's Work: Updating Events Page
+   ![switch_add_book_reviews](./Img/switch_add_book_reviews.png)
 
-1. Create a Branch for Jamie:
+3. **Add random text content into the file.**
 
-2. Switch to a new branch named __update-events__
-   
-3. Add a new file __update_events.html__ to update the Events Page Section:
-   
-![New_branch_file_](./Img/new_branch_update_events.png)
+   ![add_content_text](./Img/book_reviews_content.png)
 
-4. Add a random text content into the file.
-![Add_text_content](./Img/add_content_update_review.png)
+4. **Stage, commit, and push changes:**
 
-5. Stage, Commit, and Push Changes with a message like __"Updating Event Page."__
+   ```bash
+   git add book_reviews.html
+   git commit -m "Add book reviews section"
+   git push origin add-book-reviews
+   ```
 
-6. Push the __Updating Event Page__ branch to GitHub.
+   ![stage_commit_push](./Img/stage_commit_push_add_book_reviews.png)
 
-![Stage_commit_Push_update_events](./Img/stage_commit_push_update_events.png)
+5. **Raise a PR for Morgan's work:**
 
+   ![Raise_PR](./Img/create_PR.png)
 
+6. **Merge Morgan's work to the `main` branch:**
 
+   ![Merge_Morgan's_work](./Img/merge%20PR.png)
 
+### Jamie's Work: Updating the Events Page
 
+1. **Create a branch for Jamie:**
 
+   ```bash
+   git checkout -b update-events
+   ```
 
+2. **Add a new file `update_events.html` to update the Events Page section:**
 
+   ![New_branch_file_](./Img/new_branch_update_events.png)
+
+3. **Add random text content into the file.**
+
+   ![Add_text_content](./Img/add_content_update_review.png)
+
+4. **Stage, commit, and push changes:**
+
+   ```bash
+   git add update_events.html
+   git commit -m "Updating Event Page"
+   git push origin update-events
+   ```
+
+   ![Stage_commit_Push_update_events](./Img/stage_commit_push_update_events.png)
+
+5. **Raise a PR for Jamie's work:**
+
+   ![Pull_request](./Img/create_PR_update_Review.png)
+
+6. **Merge Jamie's work to the `main` branch:**
+
+   ![Merge_PR](./Img/merge%20PR_update_review.png)
 
 
